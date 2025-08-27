@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMC Agri Contractors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2E7D32;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1B5E20;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #2E7D32;
+            margin-bottom: 40px;
+        }
+        .services, .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service, .gallery-item {
+            background: white;
+            padding: 20px;
+            flex: 1 1 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            border-radius: 10px;
+        }
+        .service img, .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            background: #2E7D32;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #1B5E20;
+        }
+        footer {
+            background: #1B5E20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .map-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BMC Agri Contractors</h1>
+        <p>Growing Dreams, Harvesting Success</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>BMC Agri Contractors provides professional agricultural services including plowing, sowing, harvesting, fencing, and machinery hire. We are dedicated to helping farmers maximize efficiency and yield.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1598136492020-7cbad61c4dbd?auto=format&fit=crop&w=400&q=60" alt="Plowing">
+                <h3>Plowing</h3>
+                <p>High-quality plowing services with modern machinery.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1591589096627-bd71f2d32d0f?auto=format&fit=crop&w=400&q=60" alt="Sowing">
+                <h3>Sowing</h3>
+                <p>Efficient sowing to ensure optimal crop growth.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1603728904935-155bf33fa7bc?auto=format&fit=crop&w=400&q=60" alt="Harvesting">
+                <h3>Harvesting</h3>
+                <p>Fast and safe harvesting services for all crops.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1605902711622-cfb43c443f82?auto=format&fit=crop&w=400&q=60" alt="Fencing">
+                <h3>Fencing</h3>
+                <p>Durable fencing solutions for farms and fields.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=400&q=60" alt="Machinery Hire">
+                <h3>Machinery Hire</h3>
+                <p>Hire our advanced agricultural equipment for your farm.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1606107557197-0e29a1a6e54e?auto=format&fit=crop&w=400&q=60" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&w=400&q=60" alt="Gallery Image 2"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=400&q=60" alt="Gallery Image 3"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1526403228235-7a56a9baf3c3?auto=format&fit=crop&w=400&q=60" alt="Gallery Image 4"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="map-container">
+            <h3>Our Location</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363157442!3d-37.81720997975116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f8d0d3%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1687872400000" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BMC Agri Contractors | Phone: 123-456-7890 | Email: info@bmcagri.com</p>
+    </footer>
+</body>
+</html>
